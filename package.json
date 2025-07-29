@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js --exit",
+    "test:cucumber": "cucumber-js --exit --format html:cucumber-report.html",
     "test:regression:parallel": "cucumber-js --tags \"@Regression\" --parallel 2 --exit",
     "test:allure": "cucumber-js --exit --format allure-cucumberjs/reporter",
     "allure:generate": "allure generate allure-results -o allure-report --clean",
