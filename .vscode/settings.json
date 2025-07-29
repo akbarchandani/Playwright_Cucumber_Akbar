@@ -1,0 +1,14 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/stepDefinitions/**/*.js", // Example for JavaScript/TypeScript steps
+    ],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true // Important for step autocompletion
+    },
+    // You might also want to add:
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    // "cucumberautocomplete.strictGherkinValidation": true,
+    // "cucumberautocomplete.syncfeatures": "features/**/*.feature", // If your feature files are in a specific subfolder
+}
