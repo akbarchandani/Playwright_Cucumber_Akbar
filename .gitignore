@@ -7,3 +7,5 @@
 node_modules/
 screenshot/
 cucumber-report.html
+allure-report/
+allure-results/
