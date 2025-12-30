@@ -41,6 +41,14 @@ npm install
   ```bash
   npm test
   ```
+- **Run regression tests in parallel:**
+  ```bash
+  npm run test:regression:parallel
+  ```
+- **Run with Allure reporting:**
+  ```bash
+  npm run test:allure
+  ```
 - **Run a specific feature:**
   ```bash
   npx cucumber-js features/eCommerceShopping.feature --require stepDefinitions/Main/*.js
@@ -98,3 +106,5 @@ npm install
 Akbar Chandani
 
 ---
+
+## 📄
